@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfölj</title>
+</head>
+<body class="portfölj">
+    <nav class="navbar">
+        <ul>
+            <h1>Gustav Lind</h1>
+            <li><a href="index.html" class="nav-links current-page">Hem</a></li>
+            <li><a href="cv.html" class="nav-links current-page">CV</a></li>
+            <li><a href="about.html" class="nav-links">Om mig</a></li>
+            <li><a href="portfolio.html" class="nav-links">Portfölj</a></li>
+            <li><a href="webriktlinjer.html" class="nav-links">Webbriktlinjer</a></li>
+            <li><a href="contact.html" class="nav-links nav-links-btn">Kontakta mig</a></li>
+        </ul>
+    </nav>
+     <!-- Main -->
+    <div class="Portfoljcontainer">
+            <div class="header">
+                <h1>Portfölj</h1>
+                <h2>Projekt under pågående utbildning. Projekt skapad med C# och SSMS</h2>
+            </div>
+            <div class="item" id="item1">
+                <div class="icon" onclick="openTextbox('textbox1')">
+                    <div class="icon-content"><img src="images/chess.png" alt="Häst från schack">
+                        <p>Scackbräda</p>
+                    </div>
+                </div>
+                <div class="textbox" id="textbox1">
+                    <p>I den här uppgiften skulle vi skapa en schackbräda men användaren fick själv bestämma antalet rutor. Ingen större kod utan handlade mer om struktur och problemlösning</p>
+                    <button onclick="closeTextbox('textbox1')">Stäng</button>
+                </div>
+            </div>
+
+             <!-- Next Gissa numret -->
+             <div class="item" id="item1">
+                <div class="icon" onclick="openTextbox('textbox2')">
+                    <div class="icon-content"><img src="images/number-blocks.png" alt="Häst från schack">
+                        <p>Gissa numret </p>
+                    </div>
+                </div>
+                <div class="textbox" id="textbox2">
+                    <p>I den här uppgiften ska användaren få gissa ett nummer. Användaren får ledtrådar ifall det är för högt eller lågt dock begränsat antal försök.</p>
+                    <button onclick="closeTextbox('textbox2')">Stäng</button>
+                </div>
+            </div>
+
+             <!-- Next Grunderna i OOP -->
+             <div class="item" id="item3">
+                <div class="icon" onclick="openTextbox('textbox3')">
+                    <div class="icon-content"><img src="images/design-tool.png" alt="Geometry">
+                        <p>Grunderna i OOP</p>
+                    </div>
+                </div>
+                <div class="textbox" id="textbox3">
+                    <p>I den här uppgiften ska vi räkna ut arean på en cirkel och en triangel, samt omkretsen och volymen på en boll/sfär, med hjälp av en konstruktor och en metod som kommer räkna ut arean osv.</p>
+                    <button onclick="closeTextbox('textbox3')">Stäng</button>
+                </div>
+            </div>
+            <!-- Next OOP Polymorphism-->
+            <div class="item" id="item4">
+                <div class="icon" onclick="openTextbox('textbox4')">
+                    <div class="icon-content"><img src="images/connection.png" alt="Polymorphism--">
+                        <p>OOP Polymorphism--</p>
+                    </div>
+                </div>
+                <div class="textbox" id="textbox4">
+                    <p>I den här uppgiften ska vi räkna ut arean på olika geometriska figurer. Med hjälp av en basklass som heter Geometri med metoden Area som returnerar en double, Här kommer vi att använda oss av override på den satta Area-metoden så att vi kan sätta in olika parametrar i metoden beroende på vilken figur man ska räkna ut arean på.</p>
+                    <button onclick="closeTextbox('textbox4')">Stäng</button>
+                </div>
+            </div>
+            <!-- Next OOP Generic Collections -->
+            <div class="item" id="item5">
+                <div class="icon" onclick="openTextbox('textbox5')">
+                    <div class="icon-content"><img src="images/genetic-modification.png" alt="Generic">
+                        <p>OOP Generics</p>
+                    </div>
+                </div>
+                <div class="textbox" id="textbox5">
+                    <p>I den här uppgiften kommer vi att använda oss av Stack och List. Vi skapar en klass som heter Employee, där vi kommer skapa 5 olika employees med olika Id, Name, Gender och Salary. Senare i Stack-delen kommer vi experimentera lite med olika metoder så som Push, Pop och Peek-metoden. </p>
+                    <button onclick="closeTextbox('textbox5')">Stäng</button>
+                </div>
+            </div>
+            <!-- Next Grupp projekt-->
+            <div class="item" id="item6">
+                <div class="icon" onclick="openTextbox('textbox6')">
+                    <div class="icon-content"><img src="images/mobile-banking.png" alt="Bank">
+                        <p>Bank Grupp projekt</p>
+                    </div>
+                </div>
+                <div class="textbox" id="textbox6">
+                    <p>Grupp projekt där vi ska använda oss utav allt som vi tidigare har lärt oss. Läraren agerar produktägare och har skapat en backlog med funktioner som appen ska ha. Gruppen jobbade i samma Git-repo. </p>
+                    <button onclick="closeTextbox('textbox6')">Stäng</button>
+                </div>
+            </div>
+            <!-- Next Databas. -->
+            <div class="item" id="item7">
+                <div class="icon" onclick="openTextbox('textbox7')">
+                    <div class="icon-content"><img src="images/database.png" alt="Databas">
+                        <p>Databas SQL & ORM</p>
+                    </div>
+                </div>
+                <div class="textbox" id="textbox7">
+                    <p>I den här uppgiften skapar vi först en databas i SSMS samt ett ER diagram. Vi anropar sedan databasen i visual studio med hjälp utav ORM. Användaren kan ta fram användare i databasen samt skapa nya.</p>
+                    <button onclick="closeTextbox('textbox7')">Stäng</button>
+                </div>
+            </div>
+            <!-- Next Frontend. -->
+            <div class="item" id="item8">
+                <div class="icon" onclick="openTextbox('textbox8')">
+                    <div class="icon-content"><img src="images/ui-design.png" alt="Geometry">
+                        <p>Skapa personlig sida</p>
+                    </div>
+                </div>
+                <div class="textbox" id="textbox8">
+                    <p>i den här uppgiften ska vi skapa en personlig hemsida med hjälp utav html, css och lite Javascript.</p>
+                    <button onclick="closeTextbox('textbox8')">Stäng</button>
+                </div>
+            </div>
+
+            
+            
+    </div>
+    </main>
+    <script>
+        function openTextbox(textboxId) {
+        var textbox = document.getElementById(textboxId);
+        textbox.style.display = 'block';
+        }
+    
+    function closeTextbox(textboxId) {
+        var textbox = document.getElementById(textboxId);
+        textbox.style.display = 'none';
+    }
+    function closeAllTextboxes() {
+            var textboxes = document.querySelectorAll('.textbox');
+            textboxes.forEach(function(box) {
+                box.style.display = 'none';
+            });
+        }
+        </script>
+        <footer>
+            <p>&copy; 2024 Din Hemsida</p>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <h1>Gustav Lind</h1>
+            <li><a href="index.html" class="nav-links current-page">Hem</a></li>
+            <li><a href="cv.html" class="nav-links current-page">CV</a></li>
+            <li><a href="about.html" class="nav-links">Om mig</a></li>
+            <li><a href="portfolio.html" class="nav-links">Portfölj</a></li>
+            <li><a href="webriktlinjer.html" class="nav-links">Webbriktlinjer</a></li>
+            <li><a href="contact.html" class="nav-links nav-links-btn">Kontakta mig</a></li>
+        </ul>
+    </nav>
+    <div class="contact-container">
+    <header>
+        <h1>Kontakta mig</h1>
+    </header>
+    <main>
+        <div class="contact-info">
+            <h2>Kontaktuppgifter</h2>
+            <p>Namn: Gustav Lind</p>
+            <p>Telefon: 070 649 22 09</p>
+            <p>E-post: Gustav.lind.99@live.se</p>
+            <div class="center">
+                <a href="https://www.linkedin.com/in/gustav-lind-a27bb9200/">Linkedin</a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <h2>Skicka mig ett meddelande</h2>
+            <form action="skicka.php" method="post">
+                <label for="name">Namn:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-post:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Meddelande:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Skicka</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Din Hemsida</p>
+    </footer>
+    </div>
+</body>
+</html>
