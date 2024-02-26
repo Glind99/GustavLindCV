@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Home</title>
+    <script src="index.js" defer></script>
 </head>
 <body>
     <nav class="navbar">
@@ -20,13 +21,17 @@
         </ul>
     </nav>
     <main>
+        
          <!-- Main -->
         <h3>Hej och välkommen till min personliga hemsida!</h3>
         <section>Hej och välkommen! Jag heter Gustav Lind, och det gläder mig att du har funnit din väg till min hemsida. Denna hemsida är en reflektion av mig själv, där jag delar med mig av mina tidigare projekt och se över mitt CV.
 
             <p>Genom att utforska denna sida kommer du få en inblick om vem jag är, vilka intressen jag har samt se projekt som jag har skapat under min utbildning.</p>
         
-            <p>Tack för att du tar dig tiden att lära känna mig lite bättre. Om det är något du undrar över eller om du bara vill säga hej, tveka inte att kontakta mig. Jag ser verkligen fram emot att få dela denna digitala resa med dig!</p></section>
+            <p>Tack för att du tar dig tiden att lära känna mig lite bättre. Om det är något du undrar över eller om du bara vill säga hej, tveka inte att kontakta mig. Jag ser verkligen fram emot att få dela denna digitala resa med dig!
+            <span id="colorChangeTrigger"> PS min favoritfärg är ljusblå</span>
+            </p>
+        </section>
         <p>
             <img src="bildpåmig.JPEG" alt="Bild på Gustav" class="Custom-Image-Home">
         </p>
@@ -34,5 +39,11 @@
     <footer>
         <p>&copy; 2024 Din Hemsida</p>
     </footer>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>1337 - som är en visualisering i siffror av ordet LEET,</p>
+        </div>
+    </div>
 </body>
 </html>

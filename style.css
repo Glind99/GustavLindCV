@@ -80,116 +80,14 @@ section{
     align-items: center;
 }
 /* CV */
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	font-family: 'Montserrat', sans-serif;
-}
-body.cv .container {
-	background: #f5f5f5;
-	max-width: 800px;
-	margin: 60px auto;
-	height: 1250px;
-	padding: 20px;
-	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
-}
-body.cv{
-        background: #223652;
-}
-.img-area {
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	overflow: hidden;
-	margin: 25px auto;
-	border: 15px groove deepskyblue;
-}
-.img-area img {
-	width: 100%;
-}
-body.cv .header {
-	text-align: center;
-}
-body.cv h1{
-    text-align: center;
-}
-body.cv h3{ 
-    background: #00b7c44b;
-}
-body.cv .main{
-    display: flex;
-    flex-wrap: wrap;
-}
-body.cv .left{
-    flex: 1;
-    padding:30px;
-}
-body.cv .left p{
-    line-height: 1.5;
-}
-body.cv .left ul li {
-	line-height: 1.5;
-}
-body.cv h2{
-    background: #00b6c4;
-	padding: 15px;
-	color: #fff;
-	margin: 30px 0;
-	font-size: 20px;
-	border-radius: 0 50px 50px 0;
-}
-body.cv .right{
-    flex: 1;
-    padding: 10px
-}
-body.cv .right h3{
-    margin-bottom: 15px;
-}
-body.cv .right p{
-    line-height: 2.0;
-}
-body.cv .right ul li{
-    line-height: 1.5;
-}
-.download-box {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+#main {
     background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    z-index: 100;
-  }
-  
-  .download-btn {
-    background-color: #2a99f5;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .download-btn:hover {
-    background-color: #0F2143;
-  }
-  
-  .download-btn ion-icon {
-    font-size: 1.5rem;
-    margin-right: 10px;
-  }
-  
-  .download-btn span {
-    font-size: 1rem;
-    font-weight: bold;
-  }
+    padding: 20px;
+    margin: 0 auto; /* Centrera div:en horisontellt */
+    max-width: 800px; /* Sätt en maxbredd för att undvika att innehållet blir för brett */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: left;
+}
 
   /* About me*/
   body.aboutme img{
@@ -359,3 +257,45 @@ body.cv .right ul li{
         margin: 2000px;
 
     }
+    /* påskägg*/
+    .modal {
+        display: none; /* Göm modal som standard */
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.4);
+    }
+    
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+    }
+    
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    /* style.css */
+
+    /* Styla knappen */
+    
+  
+    
+  
