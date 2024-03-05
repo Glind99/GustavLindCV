@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/GustavLindLabb2/static/css/main.f855e6bc.css",
+    "main.js": "/GustavLindLabb2/static/js/main.090ab57f.js",
+    "static/js/453.3daa3eb2.chunk.js": "/GustavLindLabb2/static/js/453.3daa3eb2.chunk.js",
+    "index.html": "/GustavLindLabb2/index.html",
+    "main.f855e6bc.css.map": "/GustavLindLabb2/static/css/main.f855e6bc.css.map",
+    "main.090ab57f.js.map": "/GustavLindLabb2/static/js/main.090ab57f.js.map",
+    "453.3daa3eb2.chunk.js.map": "/GustavLindLabb2/static/js/453.3daa3eb2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.090ab57f.js"
+  ]
+}
